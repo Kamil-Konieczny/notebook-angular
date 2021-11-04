@@ -1,0 +1,7 @@
+<div class="grid">
+  <app-note-view
+    *ngFor="let note of notes"
+    [note]="note"
+  ></app-note-view>
+</div>
+<app-add-dialog></app-add-dialog>

@@ -1,0 +1,18 @@
+<div class="add" (click)="triggerModal()">+</div>
+
+<ng-template  #modalData let-modal>
+  <div class="header">
+    <label class="title-label">Title: </label>
+    <br>
+    <input #title class="title-input" type="text">
+
+  </div>
+  <div class="modal-body">
+    <label class="content-label">Content: </label>
+    <br>
+    <textarea #content class="content-input" rows="10" type="text"></textarea>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn" (click)="addNote(title.value,content.value);modal.close('Save click')">Add</button>
+  </div>
+</ng-template>

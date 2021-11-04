@@ -1,0 +1,24 @@
+.navbar
+{
+  background:transparent;
+}
+button
+{
+  background: transparent;
+  color: #FFFFFF;
+  border-color: white;
+}
+.nav-link
+{
+  color: #FFFFFF;
+}
+.navbar-brand
+{
+  color:white;
+}
+.form-inline
+{
+  position: absolute;
+  right: 3%;
+  top:20%;
+}

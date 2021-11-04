@@ -1,0 +1,27 @@
+
+
+.card
+{
+text-align: center;
+  font-weight:bold;
+  color: white;
+}
+
+.nickname
+{
+  margin-left: 35%;
+  margin-top: 10%;
+  text-align: center;
+  display: inline-block;
+  padding:5% ;
+}
+.btn-primary
+{
+  background-color: #FFFFFF;
+  color:#F25258;
+  border-radius: 7px;
+  padding: 6px;
+  border-color: white;
+margin-top: 4%;
+  font-weight:bold;
+}
