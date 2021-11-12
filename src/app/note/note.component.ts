@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {switchMap} from "rxjs/operators";
 import {ActivatedRoute, ParamMap, Router} from "@angular/router";
 import {User} from "../models/user";
@@ -19,7 +19,6 @@ export class NoteComponent implements OnInit {
   constructor(
     private http: HttpNotesServiceService,
     private route: ActivatedRoute,
-    private dialog: AddDialogComponent
   ) {}
 
   ngOnInit(): void {
@@ -28,9 +27,7 @@ export class NoteComponent implements OnInit {
     );
   this.user.subscribe(x=> this.notes=x.notes);
   }
-  onAddClick()
-  {
-    this.dialog.triggerModal();
-  }
+
+
 
 }

@@ -26,17 +26,17 @@ export class NicknameInputComponent implements OnInit {
   {
    this.user = this.httpNotesService.getUser(nickname);
 
-this.user.subscribe(
+    this.user.subscribe(
   x=>{
     if(!x) { alert("Nie ma takiego użytkownika");}
     else {
       this.router.navigate(['/notes/'+nickname]);
     }
   }
-)
+)}
+goToRegistrationPage()
+{
+  this.router.navigate(['/registration/']);
 
-
-
-
-   }
+}
 }

@@ -1,0 +1,25 @@
+<div class="form">
+<form class="form-inline">
+  <div class="form-inside">
+  <input class="form-control mr-sm-2" type="search" #searchingString placeholder="Search" aria-label="Search">
+  <button type="button" class="btn btn-outline-success my-2 my-sm-0" (click)="findNote(searchingString.value)">Search</button>
+  </div>
+</form>
+</div>
+<br>
+<ng-template  #modalData let-modal>
+  <div class="header">
+    <label class="title-label">Title: </label>
+    <br>
+    <label #title class="title-input">{{searchedNote.title}} </label>
+
+  </div>
+  <div class="modal-body">
+    <label class="content-label">Content: </label>
+    <br>
+    <label #content class="content-input" rows="10">{{searchedNote.content}}</label>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn" (click)="modal.close('Save click')">Add</button>
+  </div>
+</ng-template>

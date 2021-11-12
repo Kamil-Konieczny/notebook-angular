@@ -32,4 +32,12 @@ export class HttpNotesServiceService {
       return this.http.delete('http://localhost:8080/deletenote/',{params})
       .subscribe((res) => console.log(res));
   }
+  addUser(nickname:string)
+  {
+    const params = new HttpParams()
+      .append('nickname', nickname);
+    return this.http.post('http://localhost:8080/user',params)
+   .subscribe((res) => console.log(res));
+
+  }
 }

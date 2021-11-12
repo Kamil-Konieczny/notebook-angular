@@ -13,6 +13,8 @@ import { NoteComponent } from './note/note.component';
 import { NoteViewComponent } from './note/note-view/note-view.component';
 import { AddDialogComponent } from './navigation/add-dialog/add-dialog.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RegistrationComponent } from './registration/registration.component';
+import { ShowNoteDialogComponent } from './navigation/show-note-dialog/show-note-dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavigationComponent,
     NoteComponent,
     NoteViewComponent,
-    AddDialogComponent
+    AddDialogComponent,
+    RegistrationComponent,
+    ShowNoteDialogComponent
   ],
   imports: [
     TooltipModule.forRoot(),
