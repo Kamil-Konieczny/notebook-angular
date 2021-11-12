@@ -1,4 +1,8 @@
 # Notes
+## screenshots:
+![nickname](https://user-images.githubusercontent.com/62152929/140329375-3d69c620-b192-407f-b579-4dbe45fc2849.JPG)
+![main](https://user-images.githubusercontent.com/62152929/140329494-3e0c04f2-f181-4b84-9e60-94e1ddbe327b.JPG)
+![add](https://user-images.githubusercontent.com/62152929/140329549-e0ee1f08-4257-4631-bf18-ab9ae2ff8a82.JPG)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
