@@ -1,8 +1,9 @@
 # Notes
 ## screenshots:
-![nickname](https://user-images.githubusercontent.com/62152929/140329375-3d69c620-b192-407f-b579-4dbe45fc2849.JPG)
-![main](https://user-images.githubusercontent.com/62152929/140329494-3e0c04f2-f181-4b84-9e60-94e1ddbe327b.JPG)
-![add](https://user-images.githubusercontent.com/62152929/140329549-e0ee1f08-4257-4631-bf18-ab9ae2ff8a82.JPG)
+![notes1](https://user-images.githubusercontent.com/62152929/141480530-0a9c8319-d986-423c-a373-0a4dc5851e02.JPG)
+![notes2](https://user-images.githubusercontent.com/62152929/141480580-d66b1c0d-1c91-4f61-b8dd-9192f330ef52.JPG)
+![notes3](https://user-images.githubusercontent.com/62152929/141480623-5a91ea4b-9ce8-443a-8fa0-4ab82aadf429.JPG)
+![notes4](https://user-images.githubusercontent.com/62152929/141480647-ebacb874-c51b-41b7-b474-13fb01041cf6.JPG)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
